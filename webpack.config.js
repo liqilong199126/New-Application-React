@@ -26,8 +26,8 @@ module.exports = {
 	plugins: [
         new HtmlWebpackPlugin({
         	template: './index.html',
-        	inject: 'body',
-        	filename: './index.html'
+        	filename: './index.html',
+        	inject: true
         }),
         new webpack.HotModuleReplacementPlugin()
 	]
